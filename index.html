@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <aside class="background-banner">
+        <video muted autoplay loop poster="/Proyecto-Netflix/background-image.webp">
+            <source src="/Proyecto-Netflix/background-video.mp4" type="video/mp4">
+            <img src="/Proyecto-Netflix/background-image.webp" alt="Imagen Background">
+        </video>
+        <div class="banner">
+            <div class="menu">
+                <nav>
+                    <ul class="navegation nav-left">
+                        <li class="logo"><a href="#"><img src="/Proyecto-Netflix/netflix.png" alt=""></a></li>
+                        <li><a href="#">Explorar</a></li>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/Series.html">Series</a></li>
+                        <li><a href="#">Peliculas</a></li>
+                        <li><a href="/Personajes/Marvel.html">Marvel</a></li>
+                        <li><a href="#">Mi Lista</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="navegation nav-right">
+                        <li><a href="#"><img src="/Proyecto-Netflix/lupa.svg" alt="Lupa"></a></li>
+                        <li><a href="#">Niños</a></li>
+                        <li><a href="/login.html">Cuenta</a></li>
+                        <li><a href="#"></a><img src="/Proyecto-Netflix/campana.png" alt="Campana"></li>
+                        <li class="usuario"><a href="#"></a><img src="/Proyecto-Netflix/user.png" alt="Usuario"></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="imagotipo">
+                <div class="imagotipo-imagen">
+                    <img src="/Proyecto-Netflix/imagotipo-jurassic.webp" alt="Imagotipo">
+                </div>
+                <div class="imagotipo-info">
+                    <button><i class="fa-solid fa-play"></i>Play</button>
+                    <button><i class="fa-thin fa-circle-info"></i>More Info</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main class="catalogos">
+        <section class="catalogo-peliculas">
+            <h1>Películas Populares</h1>
+            <div class="peliculas" id="populares">
+            </div>
+            <div class="scroll-arrow left-arrow"></div>
+            <div class="scroll-arrow right-arrow"></div>
+        </section>
+
+        <section class="catalogo-peliculas">
+            <h1>Películas de Estreno</h1>
+            <div class="peliculas" id="estreno">
+                
+            </div>
+            <div class="scroll-arrow left-arrow"></div>
+            <div class="scroll-arrow right-arrow"></div>
+        </section>
+        
+        <section class="catalogo-peliculas">
+            <h1>Películas más Vistas</h1>
+            <div class="peliculas" id="mas-vistas">
+                
+            </div>
+            <div class="scroll-arrow left-arrow"></div>
+            <div class="scroll-arrow right-arrow"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="icons">
+                <li><a href="#"><img src="/Proyecto-Netflix/facebook.svg" alt="Facebook"></a></li>
+                <li><a href="#"><img src="/Proyecto-Netflix/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="#"><img src="/Proyecto-Netflix/github.svg" alt="Github"></a></li>
+                <li><a href="#"><img src="/Proyecto-Netflix/linkedin.svg" alt="Linkedin"></a></li>
+            </ul>
+            <div class="information">
+                <p>Preguntas frecuentes</p>
+                <p>Prensa</p>
+                <p>Formas de ver</p>
+                <p>Preferencias de cookies</p>
+                <p>Pruebas de velocidad</p>
+                <p>Centro de ayuda</p>
+                <p>Relaciones con inversionistas</p>
+                <p>Terminos de uso</p>
+                <p>informacion corporativa</p>
+                <p>Cuenta</p>
+                <p>Empleo</p>
+                <p>Privacidad</p>
+                <p>Contactanos</p>
+                <p>Solo en Netflix</p>
+            </div>
+            <p class="idioma">Español</p>
+            <p class="construccion">@fbwinster 2023</p>
+        </div>
+    </footer>
+    <script src="/index.js"></script>
+</body>
+</html>
